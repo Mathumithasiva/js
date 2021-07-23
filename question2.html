@@ -4,14 +4,34 @@
 
 <p id="que2"></p>
 <p id = "ques2"></p>
-
+<p id = "quest2"></p>
+<p id ="questi2"></p>
 <script>
-   var num1=10;
-   var num2=5
+const num1 = 10;
+const num2 =2;
 
-  console.log(num1*num2);   // gives number -11 (subtraction)
-  console.log(num1-num2);      // gives number 110 (multiplication)
-  console.log(num1/num2);   // gives number NaN (subtraction failed)
+function addNum (num1,num2) {
+  return (num1+num2)
+};
+document.getElementById("que2").innerHTML="The addition of the two numbers is" +" "+(num1+num2);
+
+function addNum (num1,num2) {
+  return (num1*num2)
+};
+document.getElementById("ques2").innerHTML="The addition of the two numbers is" +" "+(num1*num2);
+
+function addNum (num1,num2) {
+  return (num1-num2)
+};
+document.getElementById("quest2").innerHTML="The addition of the two numbers is" +" "+(num1-num2);
+
+
+function addNum (num1,num2) {
+  return (num1/num2)
+};
+document.getElementById("questi2").innerHTML="The addition of the two numbers is" +" "+(num1/num2);
+
+
 
 </script>
 
